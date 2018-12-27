@@ -1,0 +1,26 @@
+Step 1: Download the Sublime text 3 tar file.
+
+You can download the latest version from the Sublime Text website.
+
+GO to http://www.sublimetext.com/3 then select the right OS to download ship over to the server using secure copy or sftp WinSCP.
+
+In this case we click 64bit from Linux repos.
+
+Step 2: Unpack the tar.bz file dowloaded:
+
+tar xvjf sublime_text_3_build_3176_x64.tar.bz2
+
+Once unpacked, you will see a directory called “Sublime Text 3″
+Now move this folder to the “/opt” location. Type and run the commands below:
+
+sudo mv sublime_text_3 /opt
+Step 3: Create a symbolic link.
+
+Now I will create a symbolic link to call “Sublime Text” from the command line as “sublime”.
+
+sudo ln -s /opt/sublime_text_3/sublime_text /usr/bin/sublime
+Step 4: Start Sublime Text 3.
+
+To launch Sublime Text 3 from the command line, just type “sublime” .
+
+sublime
