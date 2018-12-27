@@ -20,17 +20,9 @@ sudo yum update -y nss curl libcurl  to upgrate the cipher
 
 link both git and gitHub repos
 
-git remote add origin "https://github.com/willfils57/git-Training.git"
+git remote add origin "https://github.com/john/git-Training.git"
 
-git pull origin master (master is the branch on the gitHub)
 
-[willfils57@localhost git-Training]$ git pull origin master
-From https://github.com/willfils57/git-Training
- * branch            master     -> FETCH_HEAD
-[willfils57@localhost git-Training]$ ls -altr
-total 12
--rw-rw-r--.  1 willfils57 willfils57   47 Dec 26 06:06 README.md
-drwxrwxr-x.  8 willfils57 willfils57 4096 Dec 26 06:06 .git
 
 
 
