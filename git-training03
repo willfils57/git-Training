@@ -1,0 +1,38 @@
+login to gitHub.com
+
+Create a new Repository
+
+Select Public and Initialize this repository with a README
+
+them click on Create repository
+
+run 
+
+mkdir git-Training (Repository)
+
+cd git-Training 
+
+and initialize git in the git-Training repos
+
+git init
+
+sudo yum update -y nss curl libcurl  to upgrate the cipher
+
+link both git and gitHub repos
+
+
+git pull origin master (master is the branch on the gitHub)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
